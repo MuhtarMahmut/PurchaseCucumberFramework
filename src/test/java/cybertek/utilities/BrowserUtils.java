@@ -1,6 +1,7 @@
 package cybertek.utilities;
 
 import com.google.common.base.Function;
+import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
@@ -16,6 +17,8 @@ import static org.junit.Assert.assertTrue;
 
 
 public class BrowserUtils {
+
+    final static Logger logger = Logger.getLogger(BrowserUtils.class);
 
     public static void wait(int secs) {
         try {
@@ -300,5 +303,51 @@ public class BrowserUtils {
                 }
         }
     }
+
+    /***
+     * This method highlights Web-site Elements using Javascript
+     *
+     * @param elem
+     * @return WebElement
+     */
+    public WebElement highlightElement(WebElement elem) {
+
+        if (ConfigurationReader.getProperty("isDemoMode") == "true") {
+            try {
+                for (int i = 0; i < 3; i++) {
+
+                    JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
+                    js.executeScript(
+                            "arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", elem);
+                    sleep(0.3);
+                    js.executeScript(
+                            "arguments[0].setAttribute('style', 'background: red; border: 2px solid yellow;');", elem);
+                    sleep(0.3);
+                    js.executeScript(
+                            "arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", elem);
+                    sleep(0.3);
+                }
+            } catch (Exception e) {
+                logger.error("Error: ", e);
+            }
+        }
+        return elem;
+    }
+
+    /***
+     * This method stops the current thread for given second(s)
+     *
+     * @param Seconds
+     */
+    public void sleep(double Seconds) {
+        try {
+            Thread.sleep((long) (Seconds * 1000));
+
+        } catch (Exception e) {
+            logger.error("Error: ", e);
+
+        }
+    }
+
 }
 

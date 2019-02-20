@@ -1,8 +1,8 @@
 package cybertek.step_definitions;
 
 import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
 import cybertek.pages.LoginPage;
+import cybertek.pages.PurchasePage;
 import cybertek.utilities.BrowserUtils;
 import cybertek.utilities.ConfigurationReader;
 import cybertek.utilities.Driver;
@@ -33,14 +33,10 @@ public class LoginPageStepDef {
         BrowserUtils.waitForVisibility(loginPage.purchases, 10).click();
 
 
-    }
-
-    @Then("user should be able to login to the main page")
-    public void user_should_be_able_to_login_to_the_main_page() {
-
-        BrowserUtils.wait(3);
         String expectedTitle = "Requests for Quotation - Odoo";
+
         String actualTitle = driver.getTitle();
+
         Assert.assertEquals(expectedTitle, actualTitle);
 
     }
