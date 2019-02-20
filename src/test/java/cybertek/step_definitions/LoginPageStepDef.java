@@ -31,8 +31,6 @@ public class LoginPageStepDef {
 
         BrowserUtils.highlightElement(BrowserUtils.waitForVisibility(loginPage.purchases, 10)).click();
 
-        BrowserUtils.highlightElement(BrowserUtils.waitForVisibility(loginPage.purchases, 10)).click();
-
         String expectedTitle = "Requests for Quotation - Odoo";
 
         String actualTitle = driver.getTitle();
