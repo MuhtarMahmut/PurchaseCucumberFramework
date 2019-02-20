@@ -348,6 +348,5 @@ public class BrowserUtils {
 
         }
     }
-
 }
 

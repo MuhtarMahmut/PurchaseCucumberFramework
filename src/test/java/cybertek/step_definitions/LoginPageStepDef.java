@@ -1,7 +1,7 @@
 package cybertek.step_definitions;
 
 import cucumber.api.java.en.Given;
-import cybertek.pages.LoginPage;
+import cybertek.pages.commom_page.LoginPage;
 import cybertek.utilities.BrowserUtils;
 import cybertek.utilities.ConfigurationReader;
 import cybertek.utilities.Driver;

@@ -1,4 +1,4 @@
-package cybertek.pages;
+package cybertek.pages.commom_page;
 
 import cybertek.utilities.Driver;
 import org.openqa.selenium.WebElement;
