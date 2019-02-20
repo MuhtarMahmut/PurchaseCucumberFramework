@@ -6,10 +6,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class PurchasePage {
+    @FindBy(xpath = "Requests for Quotation")
+    public WebElement Requests_for_Quotation;
+
     public PurchasePage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
-
-    @FindBy(xpath = "Requests for Quotation")
-    public WebElement Requests_for_Quotation;
 }

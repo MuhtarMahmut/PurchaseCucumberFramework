@@ -274,36 +274,6 @@ public class BrowserUtils {
 
     }
 
-    /**
-     * Waits for element to be not stale
-     *
-     * @param element
-     */
-    public void waitForStaleElement(WebElement element) {
-        int y = 0;
-        while (y <= 15) {
-            if (y == 1)
-                try {
-                    element.isDisplayed();
-                    break;
-                } catch (StaleElementReferenceException st) {
-                    y++;
-                    try {
-                        Thread.sleep(300);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                } catch (WebDriverException we) {
-                    y++;
-                    try {
-                        Thread.sleep(300);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                }
-        }
-    }
-
     /***
      * This method highlights Web-site Elements using Javascript
      *
@@ -346,6 +316,36 @@ public class BrowserUtils {
         } catch (Exception e) {
             logger.error("Error: ", e);
 
+        }
+    }
+
+    /**
+     * Waits for element to be not stale
+     *
+     * @param element
+     */
+    public void waitForStaleElement(WebElement element) {
+        int y = 0;
+        while (y <= 15) {
+            if (y == 1)
+                try {
+                    element.isDisplayed();
+                    break;
+                } catch (StaleElementReferenceException st) {
+                    y++;
+                    try {
+                        Thread.sleep(300);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                } catch (WebDriverException we) {
+                    y++;
+                    try {
+                        Thread.sleep(300);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
         }
     }
 }
