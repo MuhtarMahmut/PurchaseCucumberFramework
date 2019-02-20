@@ -1,4 +1,4 @@
-package cybertek.pages.everyonePages;
+package cybertek.pages.everyone_pages;
 
 public class IhtibarWebElementPage {
 }
