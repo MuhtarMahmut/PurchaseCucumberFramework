@@ -307,10 +307,10 @@ public class BrowserUtils {
     /***
      * This method highlights Web-site Elements using Javascript
      *
-     * @param elem
+     * @param element
      * @return WebElement
      */
-    public static WebElement highlightElement(WebElement elem) {
+    public static WebElement highlightElement(WebElement element) {
 
         if (ConfigurationReader.getProperty("isDemoMode").equals("true")) {
             try {
@@ -318,20 +318,20 @@ public class BrowserUtils {
 
                     JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
                     js.executeScript(
-                            "arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", elem);
+                            "arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", element);
                     sleep(0.3);
                     js.executeScript(
-                            "arguments[0].setAttribute('style', 'background: red; border: 2px solid yellow;');", elem);
+                            "arguments[0].setAttribute('style', 'background: red; border: 2px solid yellow;');", element);
                     sleep(0.3);
                     js.executeScript(
-                            "arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", elem);
+                            "arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", element);
                     sleep(0.3);
                 }
             } catch (Exception e) {
                 logger.error("Error: ", e);
             }
         }
-        return elem;
+        return element;
     }
 
     /***
