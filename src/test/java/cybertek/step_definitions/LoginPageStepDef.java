@@ -2,7 +2,6 @@ package cybertek.step_definitions;
 
 import cucumber.api.java.en.Given;
 import cybertek.pages.LoginPage;
-import cybertek.pages.PurchasePage;
 import cybertek.utilities.BrowserUtils;
 import cybertek.utilities.ConfigurationReader;
 import cybertek.utilities.Driver;
@@ -20,18 +19,19 @@ public class LoginPageStepDef {
 
         driver.get(ConfigurationReader.getProperty("url"));
 
-        loginPage.BriteErpDemo.click();
+        BrowserUtils.highlightElement(BrowserUtils.waitForVisibility(loginPage.BriteErpDemo, 10)).click();
 
-        BrowserUtils.waitForVisibility(loginPage.email, 10).sendKeys(userName);
+        BrowserUtils.highlightElement(BrowserUtils.waitForVisibility(loginPage.email, 10)).sendKeys(userName);
 
-        BrowserUtils.waitForVisibility(loginPage.password, 10).sendKeys(password);
+        BrowserUtils.highlightElement(BrowserUtils.waitForVisibility(loginPage.password, 10)).sendKeys(password);
 
-        BrowserUtils.waitForVisibility(loginPage.loginBtn, 10).click();
+        BrowserUtils.highlightElement(BrowserUtils.waitForVisibility(loginPage.loginBtn, 10)).click();
 
-        BrowserUtils.waitForVisibility(loginPage.purchases, 10).click();
-        BrowserUtils.waitForVisibility(loginPage.purchases, 10).click();
-        BrowserUtils.waitForVisibility(loginPage.purchases, 10).click();
+        BrowserUtils.highlightElement(BrowserUtils.waitForVisibility(loginPage.purchases, 10)).click();
 
+        BrowserUtils.highlightElement(BrowserUtils.waitForVisibility(loginPage.purchases, 10)).click();
+
+        BrowserUtils.highlightElement(BrowserUtils.waitForVisibility(loginPage.purchases, 10)).click();
 
         String expectedTitle = "Requests for Quotation - Odoo";
 

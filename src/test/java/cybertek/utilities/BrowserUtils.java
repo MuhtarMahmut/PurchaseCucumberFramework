@@ -310,9 +310,9 @@ public class BrowserUtils {
      * @param elem
      * @return WebElement
      */
-    public WebElement highlightElement(WebElement elem) {
+    public static WebElement highlightElement(WebElement elem) {
 
-        if (ConfigurationReader.getProperty("isDemoMode") == "true") {
+        if (ConfigurationReader.getProperty("isDemoMode").equals("true")) {
             try {
                 for (int i = 0; i < 3; i++) {
 
@@ -339,7 +339,7 @@ public class BrowserUtils {
      *
      * @param Seconds
      */
-    public void sleep(double Seconds) {
+    public static void sleep(double Seconds) {
         try {
             Thread.sleep((long) (Seconds * 1000));
 
