@@ -23,7 +23,16 @@ public class Driver {
             switch (ConfigurationReader.getProperty("browser")) {
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
-                    driver = new ChromeDriver();
+                    ChromeOptions options = new ChromeOptions();
+                    options.addArguments("--disable-popup-blocking");
+                    options.addArguments("start-maximized");
+                    options.addArguments("test-type");
+                    options.addArguments("allow-running-insecure-content");
+                    options.addArguments("disable-extensions");
+                    options.addArguments("--ignore-certificate-errors");
+                    options.addArguments("test-type=browser");
+                    options.addArguments("disable-infobars");
+                    driver = new ChromeDriver(options);
                     break;
                 case "chrome-headless":
                     WebDriverManager.chromedriver().setup();
