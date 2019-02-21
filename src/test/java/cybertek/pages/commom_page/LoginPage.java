@@ -7,8 +7,6 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 
-    @FindBy(xpath = "//a[contains(text(),'BriteErpDemo')]")
-    public WebElement BriteErpDemo;
     @FindBy(xpath = "//input[@id='login']")
     public WebElement email;
     @FindBy(xpath = "//input[@id='password']")
