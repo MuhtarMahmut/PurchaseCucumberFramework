@@ -33,6 +33,7 @@ public class LoginPageStepDef {
         BrowserUtils.sleep(sleepTimer);
         String expectedTitle = "Requests for Quotation - Odoo";
         String actualTitle = driver.getTitle();
+
         assertEquals(expectedTitle, actualTitle);
 
     }
