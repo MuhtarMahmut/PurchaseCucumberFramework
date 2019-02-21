@@ -296,8 +296,6 @@ public class BrowserUtils {
                     js.executeScript(
                             "arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", element);
                     sleep(0.1);
-                    js.executeScript(
-                            "arguments[0].setAttribute('style', 'background: white; border: 2px solid white;');", element);
                 }
             } catch (Exception e) {
                 logger.error("Error: ", e);

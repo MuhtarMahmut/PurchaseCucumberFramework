@@ -15,31 +15,18 @@ public class LoginPageStepDef {
 
     @Given("user login as a manager")
     public void user_login_as_a_manager() {
+
         LoginPage loginPage = new LoginPage();
         ExcelUtil manager = new ExcelUtil("MOCK_DATA.xlsx", "manager");
-
         driver.get(ConfigurationReader.getProperty("url"));
-
         BrowserUtils.highlightElement(BrowserUtils.waitForVisibility(loginPage.BriteErpDemo, 10)).click();
-
         BrowserUtils.highlightElement(BrowserUtils.waitForVisibility(loginPage.email, 10)).sendKeys(manager.getDataList().get(0).get("Manager UserName"));
-
         BrowserUtils.highlightElement(BrowserUtils.waitForVisibility(loginPage.password, 10)).sendKeys(manager.getDataList().get(0).get("Manager Password"));
-
         BrowserUtils.highlightElement(BrowserUtils.waitForVisibility(loginPage.loginBtn, 10)).click();
-
         BrowserUtils.highlightElement(BrowserUtils.waitForVisibility(loginPage.purchases, 10)).click();
-
-        BrowserUtils.highlightElement(BrowserUtils.waitForVisibility(loginPage.purchases, 10)).click();
-
-        BrowserUtils.highlightElement(BrowserUtils.waitForVisibility(loginPage.purchases, 10)).click();
-
-        BrowserUtils.sleep(1);
-
+        BrowserUtils.sleep(5);
         String expectedTitle = "Requests for Quotation - Odoo";
-
         String actualTitle = driver.getTitle();
-
         Assert.assertEquals(expectedTitle, actualTitle);
 
     }
