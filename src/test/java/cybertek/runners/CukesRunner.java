@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
         },
         features = {"src/test/resources/com.cybertek"},
         glue = "cybertek/step_definitions"
-        , dryRun = true
+        , dryRun = false
         , tags = "@wip"
 )
 public class CukesRunner {

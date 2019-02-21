@@ -21,4 +21,10 @@ public class MisranWebElementPage {
 
     @FindBy(xpath = "//button[@class='btn btn-sm btn-default'][contains(text(),'Confirm Order')]")
     public WebElement confirm_order;
+
+    @FindBy(xpath = "//li[@class='active']//a[@class='oe_menu_leaf']")
+    public WebElement products;
+
+    @FindBy(xpath = "//li[contains(text(),'products')]")
+    public WebElement productsText;
 }
