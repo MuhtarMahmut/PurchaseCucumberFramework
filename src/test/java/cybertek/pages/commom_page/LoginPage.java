@@ -14,6 +14,7 @@ public class LoginPage {
 
     @FindBy(xpath = "//input[@id='login']")
     public WebElement email;
+
     @FindBy(xpath = "//input[@id='password']")
     public WebElement password;
 
