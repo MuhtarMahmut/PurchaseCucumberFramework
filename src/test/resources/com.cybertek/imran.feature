@@ -1,6 +1,5 @@
 Feature: imran
 
-  @BRIT-4214
   Scenario Outline: login as a manager
     Given user login as a manager using "<username>" and "<password>"
 
