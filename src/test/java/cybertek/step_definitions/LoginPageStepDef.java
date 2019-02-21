@@ -3,6 +3,7 @@ package cybertek.step_definitions;
 import cucumber.api.java.en.Given;
 import cybertek.pages.commom_page.LoginPage;
 import cybertek.pages.commom_page.MainPage;
+import cybertek.pages.commom_page.PurchasePage;
 import cybertek.utilities.BrowserUtils;
 import cybertek.utilities.ConfigurationReader;
 import cybertek.utilities.Driver;
@@ -22,6 +23,7 @@ public class LoginPageStepDef {
 
         MainPage mainPage = new MainPage();
         LoginPage loginPage = new LoginPage();
+        PurchasePage purchasePage = new PurchasePage();
         ExcelUtil manager = new ExcelUtil("MOCK_DATA.xlsx", "manager");
 
         driver.get(ConfigurationReader.getProperty("url"));
@@ -29,7 +31,7 @@ public class LoginPageStepDef {
         BrowserUtils.highlightElement(BrowserUtils.waitForVisibility(loginPage.email, timer)).sendKeys(manager.getDataList().get(0).get("Manager UserName"));
         BrowserUtils.highlightElement(BrowserUtils.waitForVisibility(loginPage.password, timer)).sendKeys(manager.getDataList().get(0).get("Manager Password"));
         BrowserUtils.highlightElement(BrowserUtils.waitForVisibility(loginPage.loginBtn, timer)).click();
-        BrowserUtils.highlightElement(BrowserUtils.waitForVisibility(loginPage.purchases, timer)).click();
+        BrowserUtils.highlightElement(BrowserUtils.waitForVisibility(purchasePage.purchases, timer)).click();
         BrowserUtils.sleep(sleepTimer);
         String expectedTitle = "Requests for Quotation - Odoo";
         String actualTitle = driver.getTitle();
