@@ -7,14 +7,15 @@ import cybertek.utilities.BrowserUtils;
 import cybertek.utilities.ConfigurationReader;
 import cybertek.utilities.Driver;
 import cybertek.utilities.ExcelUtil;
-import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
+
+import static org.junit.Assert.assertEquals;
 
 public class LoginPageStepDef {
 
     private static WebDriver driver = Driver.getDriver();
-    private static int timer = 10;
-    private static double sleepTimer = 5.0;
+    private static int timer = 5;
+    private static double sleepTimer = 3;
 
     @Given("user login as a manager")
     public void user_login_as_a_manager() {
@@ -32,7 +33,7 @@ public class LoginPageStepDef {
         BrowserUtils.sleep(sleepTimer);
         String expectedTitle = "Requests for Quotation - Odoo";
         String actualTitle = driver.getTitle();
-        Assert.assertEquals(expectedTitle, actualTitle);
+        assertEquals(expectedTitle, actualTitle);
 
     }
 }
