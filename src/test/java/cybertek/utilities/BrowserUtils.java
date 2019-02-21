@@ -289,13 +289,15 @@ public class BrowserUtils {
                     JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
                     js.executeScript(
                             "arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", element);
-                    sleep(0.3);
+                    sleep(0.1);
                     js.executeScript(
                             "arguments[0].setAttribute('style', 'background: red; border: 2px solid yellow;');", element);
-                    sleep(0.3);
+                    sleep(0.1);
                     js.executeScript(
                             "arguments[0].setAttribute('style', 'background: yellow; border: 2px solid red;');", element);
-                    sleep(0.3);
+                    sleep(0.1);
+                    js.executeScript(
+                            "arguments[0].setAttribute('style', 'background: white; border: 2px solid white;');", element);
                 }
             } catch (Exception e) {
                 logger.error("Error: ", e);
