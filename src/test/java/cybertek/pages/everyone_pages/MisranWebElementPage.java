@@ -22,9 +22,9 @@ public class MisranWebElementPage {
     @FindBy(xpath = "//button[@class='btn btn-sm btn-default'][contains(text(),'Confirm Order')]")
     public WebElement confirm_order;
 
-    @FindBy(xpath = "//li[@class='active']//a[@class='oe_menu_leaf']")
+    @FindBy(xpath = "//li[@class='active']//span[@class='oe_menu_text'][contains(text(),'Products')]")
     public WebElement products;
 
-    @FindBy(xpath = "//li[contains(text(),'products')]")
+    @FindBy(xpath = "//li[@class='active']//a[@class='oe_menu_leaf']")
     public WebElement productsText;
 }
