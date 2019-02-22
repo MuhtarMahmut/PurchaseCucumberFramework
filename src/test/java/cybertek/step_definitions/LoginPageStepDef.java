@@ -15,8 +15,8 @@ import static org.junit.Assert.assertEquals;
 public class LoginPageStepDef {
 
     private static WebDriver driver = Driver.getDriver();
-    private static int timer = 5;
-    private static double sleepTimer = 3;
+    private static int timer = 10;
+    private static double sleepTimer = 7;
 
     @Given("user login as a manager")
     public void user_login_as_a_manager() {

@@ -43,7 +43,7 @@ public class MisranStepDef {
     public void user_click_product_button() {
 
         MisranWebElementPage misranWebElementPage = new MisranWebElementPage();
-        BrowserUtils.highlightElement(BrowserUtils.waitForClickablility(misranWebElementPage.products, 10)).click();
+        misranWebElementPage.products.click();
 
     }
 
@@ -57,6 +57,12 @@ public class MisranStepDef {
 
     @Then("the product details should display")
     public void the_product_details_should_display() {
+
+        BrowserUtils.sleep(3);
+        MisranWebElementPage misranWebElementPage = new MisranWebElementPage();
+        Assert.assertTrue(BrowserUtils.waitForVisibility(misranWebElementPage.Apple_In_Ear_Headphones, 10).isDisplayed());
+        Assert.assertTrue(BrowserUtils.waitForVisibility(misranWebElementPage.price, 10).isDisplayed());
+
 
     }
 }

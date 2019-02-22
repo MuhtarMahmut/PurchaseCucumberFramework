@@ -22,9 +22,19 @@ public class MisranWebElementPage {
     @FindBy(xpath = "//button[@class='btn btn-sm btn-default'][contains(text(),'Confirm Order')]")
     public WebElement confirm_order;
 
-    @FindBy(xpath = "//li[@class='active']//span[@class='oe_menu_text'][contains(text(),'Products')]")
+    @FindBy(xpath = "/html/body/div[1]/div[1]/div[1]/div[9]/ul[1]/li[4]/a/span")
     public WebElement products;
 
     @FindBy(xpath = "//li[@class='active']//a[@class='oe_menu_leaf']")
     public WebElement productsText;
+
+    @FindBy(xpath = "/html/body/div[1]/div[2]/div[2]/div/div/div/div[1]/div[2]/strong/span")
+    public WebElement Apple_In_Ear_Headphones;
+
+    @FindBy(xpath = "//span[contains(text(),'$ 67.00')]")
+    public WebElement price;
+
+
+
+
 }
