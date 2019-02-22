@@ -41,6 +41,8 @@ public class AmazonStepDef {
 
         ProductPage productPage = new ProductPage();
         productPage.addToCart.click();
-        BrowserUtils.sleep(3);
+        BrowserUtils.sleep(1);
+        productPage.noThank.click();
+        BrowserUtils.sleep(1);
     }
 }

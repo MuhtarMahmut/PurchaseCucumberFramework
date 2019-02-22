@@ -15,5 +15,7 @@ public class ProductPage {
     @FindBy(xpath = "//input[@id='add-to-cart-button']")
     public WebElement addToCart;
 
+    @FindBy(xpath = "//input[@id='add-to-cart-button']")
+    public WebElement noThank;
 
 }

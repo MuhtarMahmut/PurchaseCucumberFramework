@@ -3,7 +3,6 @@ Feature: misran
 
   Background: Common Steps
     Given user login as a manager
-  @wip
   Scenario: login as a manager
     When user click Requests for Quotation
     Then user should see create button
@@ -14,6 +13,8 @@ Feature: misran
     When user click product button
     Then user should see product page
     Then the product details should display
+
+
 
 
 
