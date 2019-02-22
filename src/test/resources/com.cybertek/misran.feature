@@ -3,7 +3,7 @@ Feature: misran
 
   Background: Common Steps
     Given user login as a manager
-
+  @wip
   Scenario: login as a manager
     When user click Requests for Quotation
     Then user should see create button
