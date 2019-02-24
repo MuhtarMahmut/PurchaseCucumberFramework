@@ -1,0 +1,3473 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15591412732,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5670180979,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Vendor bills page should be clickable and accessible",
+        "description": "",
+        "id": "ihtibar;vendor-bills-page-should-be-clickable-and-accessible",
+        "after": [
+          {
+            "result": {
+              "duration": 3774315850,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1153705026,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Vendor Bill link.",
+            "match": {
+              "location": "IhtiparStepDef.click_Vendor_Bill_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6437550,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Page title should contain \"Vendor Bil\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vendor Bil\"",
+                  "offset": 26
+                }
+              ],
+              "location": "IhtiparStepDef.page_title_should_contain(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Ihtibar"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14412329989,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3650817985,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Incoming products page should be clickable and accessible",
+        "description": "",
+        "id": "ihtibar;incoming-products-page-should-be-clickable-and-accessible",
+        "after": [
+          {
+            "result": {
+              "duration": 3767414941,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1207738969,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click the Incoming Products",
+            "match": {
+              "location": "IhtiparStepDef.click_the_Incoming_Products()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14254513,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Page title should contain \"Incoming Produc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Incoming Produc\"",
+                  "offset": 26
+                }
+              ],
+              "location": "IhtiparStepDef.page_title_should_contain(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Ihtibar"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14302847703,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3609426607,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Products page should be clickable and accessible",
+        "description": "",
+        "id": "ihtibar;products-page-should-be-clickable-and-accessible",
+        "after": [
+          {
+            "result": {
+              "duration": 3773126730,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1889896486,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click the Products link",
+            "match": {
+              "location": "IhtiparStepDef.click_the_Products_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6753283,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the page title should contain \"Produc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Produc\"",
+                  "offset": 30
+                }
+              ],
+              "location": "IhtiparStepDef.the_page_title_should_contain(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Ihtibar"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18895894143,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3675429408,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "when the manager tries delete an incoming product , system should ask to make sure again.",
+        "description": "",
+        "id": "ihtibar;when-the-manager-tries-delete-an-incoming-product---system-should-ask-to-make-sure-again.",
+        "after": [
+          {
+            "result": {
+              "duration": 3807034798,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1841839293,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click the Incoming Products",
+            "match": {
+              "location": "IhtiparStepDef.click_the_Incoming_Products()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100126336,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Select the Random product",
+            "match": {
+              "location": "IhtiparStepDef.select_the_Random_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 96807295,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click the action button.",
+            "match": {
+              "location": "IhtiparStepDef.click_the_action_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 131124536,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Select the delete",
+            "match": {
+              "location": "IhtiparStepDef.select_the_delete()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186687226,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "confirmation window will pup up",
+            "match": {
+              "location": "IhtiparStepDef.confirmation_window_will_pup_up()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Ihtibar"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19655835587,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3941795388,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "When selecting\" expecting \"date check-box , all the items check box has to be Selected.",
+        "description": "",
+        "id": "ihtibar;when-selecting\"-expecting-\"date-check-box---all-the-items-check-box-has-to-be-selected.",
+        "after": [
+          {
+            "result": {
+              "duration": 3742736531,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1854857324,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Click the Incoming Products",
+            "match": {
+              "location": "IhtiparStepDef.click_the_Incoming_Products()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104483458,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "click the expected date check box",
+            "match": {
+              "location": "IhtiparStepDef.click_the_expected_date_check_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 345056574,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "all check boxes will be selected.",
+            "match": {
+              "location": "IhtiparStepDef.all_check_boxes_will_be_selected()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Ihtibar"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "ihtibar",
+    "description": "",
+    "id": "ihtibar",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\com.cybertek\\ihtibar.feature",
+    "tags": [
+      {
+        "name": "@Ihtibar",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 10
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 23985253114,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3602328577,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Header text of the vendor page and page title should match",
+        "description": "",
+        "id": "imran;header-text-of-the-vendor-page-and-page-title-should-match",
+        "after": [
+          {
+            "result": {
+              "duration": 3744904851,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8616287836,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Vendor page.",
+            "match": {
+              "location": "MisranStepDef.click_Vendor_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53868823,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the hearder text should match with the title.",
+            "match": {
+              "location": "ImranStepDef.the_hearder_text_should_match_with_the_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Imran"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "line": 12,
+        "name": "",
+        "description": "",
+        "id": "imran;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@Imran"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "line": 15,
+        "name": "",
+        "description": "",
+        "id": "imran;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@Imran"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "line": 18,
+        "name": "",
+        "description": "",
+        "id": "imran;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@Imran"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "line": 21,
+        "name": "",
+        "description": "",
+        "id": "imran;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@Imran"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "imran",
+    "description": "",
+    "id": "imran",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\com.cybertek\\imran.feature",
+    "tags": [
+      {
+        "name": "@Imran",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Common Steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18385057871,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3665153137,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "login as a manager",
+        "description": "",
+        "id": "misran;login-as-a-manager",
+        "after": [
+          {
+            "result": {
+              "duration": 3773701024,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 224840629,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click Requests for Quotation",
+            "match": {
+              "location": "MisranStepDef.user_click_Requests_for_Quotation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41616658,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should see create button",
+            "match": {
+              "location": "MisranStepDef.user_should_see_create_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2024149344,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "when user click create button",
+            "match": {
+              "location": "MisranStepDef.when_user_click_create_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 802309462,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the order page should display",
+            "match": {
+              "location": "MisranStepDef.the_order_page_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Misran"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Common Steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19612402608,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3637363899,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "verify product info",
+        "description": "",
+        "id": "misran;verify-product-info",
+        "after": [
+          {
+            "result": {
+              "duration": 3796185086,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 150307904,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click product button",
+            "match": {
+              "location": "MisranStepDef.user_click_product_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58853998,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should see product page",
+            "match": {
+              "location": "MisranStepDef.user_should_see_product_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5244215570,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the product details should display",
+            "match": {
+              "location": "MisranStepDef.the_product_details_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Misran"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Common Steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19664122737,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3657951854,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Product Should Match With Infos Shown On ProductPage",
+        "description": "",
+        "id": "misran;product-should-match-with-infos-shown-on-productpage",
+        "after": [
+          {
+            "result": {
+              "duration": 3789612284,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3604339885,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click the Products link",
+            "match": {
+              "location": "IhtiparStepDef.click_the_Products_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 636829285,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click product box",
+            "match": {
+              "location": "MisranStepDef.click_product_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2920299059,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "products info should match",
+            "match": {
+              "location": "MisranStepDef.products_info_should_match()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Misran"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Common Steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21049173781,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3589706065,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Sales Price of the product Can Be Updated By TheManeger",
+        "description": "",
+        "id": "misran;sales-price-of-the-product-can-be-updated-by-themaneger",
+        "after": [
+          {
+            "result": {
+              "duration": 3770208329,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3534882788,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Click the Products link",
+            "match": {
+              "location": "IhtiparStepDef.click_the_Products_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 704554541,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Click product box",
+            "match": {
+              "location": "MisranStepDef.click_product_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3471506975,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Click Edit Button",
+            "match": {
+              "location": "MisranStepDef.click_Edit_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 821215923,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Enter \"700\" to salex price box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"700\"",
+                  "offset": 6
+                }
+              ],
+              "location": "MisranStepDef.enter_to_salex_price_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 449365951,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click save button",
+            "match": {
+              "location": "MisranStepDef.click_save_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Misran"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Common Steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15244098664,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3726496737,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Verify that vendor page should be cliakcable:",
+        "description": "",
+        "id": "misran;verify-that-vendor-page-should-be-cliakcable:",
+        "after": [
+          {
+            "result": {
+              "duration": 3767033500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2821902857,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Click Vendor page.",
+            "match": {
+              "location": "MisranStepDef.click_Vendor_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2896641,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "title of the page should contain \"Vendors\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vendors\"",
+                  "offset": 33
+                }
+              ],
+              "location": "MisranStepDef.title_of_the_page_should_contain(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Misran"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "misran",
+    "description": "",
+    "id": "misran",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\com.cybertek\\misran.feature",
+    "tags": [
+      {
+        "name": "@Misran",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 9
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14628291255,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3644586088,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Should be able to add multiple items in the creating purchase order.",
+        "description": "",
+        "id": "muhtar;should-be-able-to-add-multiple-items-in-the-creating-purchase-order.",
+        "after": [
+          {
+            "result": {
+              "duration": 3751940161,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1156297880,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click the purchaseOrder",
+            "match": {
+              "location": "MuhtarStepDef.click_the_purchaseOrder()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 135313551,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click The Create Button",
+            "match": {
+              "location": "MuhtarStepDef.click_The_Create_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 655215213,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click the Add an Item",
+            "match": {
+              "location": "MuhtarStepDef.click_the_Add_an_Item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 672141513,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "should be able to select item from Product Drop Down Box",
+            "match": {
+              "location": "MuhtarStepDef.should_be_able_to_select_item_from_Product_Drop_Down_Box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 124803467,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click the Add an Item",
+            "match": {
+              "location": "MuhtarStepDef.click_the_Add_an_Item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Muhtar"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14974808309,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3589149264,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Default tax should be 0 when creating purchase order",
+        "description": "",
+        "id": "muhtar;default-tax-should-be-0-when-creating-purchase-order",
+        "after": [
+          {
+            "result": {
+              "duration": 3752323308,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1814171654,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click the purchaseOrder",
+            "match": {
+              "location": "MuhtarStepDef.click_the_purchaseOrder()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87447078,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click The Create Button",
+            "match": {
+              "location": "MuhtarStepDef.click_The_Create_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 793287165,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click the Add an Item",
+            "match": {
+              "location": "MuhtarStepDef.click_the_Add_an_Item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 45586366,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The default teax should be 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 27
+                }
+              ],
+              "location": "MuhtarStepDef.the_default_teax_should_be(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Muhtar"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18210522116,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3565287068,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Quantity box should be Empty in creating purchase orders.",
+        "description": "",
+        "id": "muhtar;quantity-box-should-be-empty-in-creating-purchase-orders.",
+        "after": [
+          {
+            "result": {
+              "duration": 3772811850,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1680895438,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "click the purchaseOrder",
+            "match": {
+              "location": "MuhtarStepDef.click_the_purchaseOrder()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82110755,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click The Create Button",
+            "match": {
+              "location": "MuhtarStepDef.click_The_Create_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 825227445,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Click the Add an Item",
+            "match": {
+              "location": "MuhtarStepDef.click_the_Add_an_Item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 891864701,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "should be able to select item from Product Drop Down Box",
+            "match": {
+              "location": "MuhtarStepDef.should_be_able_to_select_item_from_Product_Drop_Down_Box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35517882,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Qunatity box should be empty.",
+            "match": {
+              "location": "MuhtarStepDef.qunatity_box_should_be_empty()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Muhtar"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18055067330,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3659294575,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Rcieved Quantity should be 0 in creating purchase orders",
+        "description": "",
+        "id": "muhtar;rcieved-quantity-should-be-0-in-creating-purchase-orders",
+        "after": [
+          {
+            "result": {
+              "duration": 3736500367,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1769992436,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "click the purchaseOrder",
+            "match": {
+              "location": "MuhtarStepDef.click_the_purchaseOrder()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110918021,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click The Create Button",
+            "match": {
+              "location": "MuhtarStepDef.click_The_Create_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 886503631,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Click the Add an Item",
+            "match": {
+              "location": "MuhtarStepDef.click_the_Add_an_Item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1479790711,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "should be able to select item from Product Drop Down Box",
+            "match": {
+              "location": "MuhtarStepDef.should_be_able_to_select_item_from_Product_Drop_Down_Box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36465936,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Received Quantity should be equal to 0.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 37
+                }
+              ],
+              "location": "MuhtarStepDef.received_Quantity_should_be_equal_to(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Muhtar"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19088891345,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3605951405,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Billed Quantity should be 0 in creating purchase orders",
+        "description": "",
+        "id": "muhtar;billed-quantity-should-be-0-in-creating-purchase-orders",
+        "after": [
+          {
+            "result": {
+              "duration": 3775903051,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1685763706,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "click the purchaseOrder",
+            "match": {
+              "location": "MuhtarStepDef.click_the_purchaseOrder()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71363871,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Click The Create Button",
+            "match": {
+              "location": "MuhtarStepDef.click_The_Create_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 873577759,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Click the Add an Item",
+            "match": {
+              "location": "MuhtarStepDef.click_the_Add_an_Item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 882638457,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "should be able to select item from Product Drop Down Box",
+            "match": {
+              "location": "MuhtarStepDef.should_be_able_to_select_item_from_Product_Drop_Down_Box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38118416,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Billed Quantity should be equal to 0.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 35
+                }
+              ],
+              "location": "MuhtarStepDef.billed_Quantity_should_be_equal_to(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Muhtar"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "muhtar",
+    "description": "",
+    "id": "muhtar",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\com.cybertek\\muhtar.feature",
+    "tags": [
+      {
+        "name": "@Muhtar",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 9
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21727113697,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3545981672,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "default page from the purchase moudle is Request for Quotation page.",
+        "description": "",
+        "id": "rayisa;default-page-from-the-purchase-moudle-is-request-for-quotation-page.",
+        "after": [
+          {
+            "result": {
+              "duration": 3771035635,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11933445,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "title should contain \"Requests for Qu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Requests for Qu\"",
+                  "offset": 21
+                }
+              ],
+              "location": "RayisaStepDef.title_should_contain(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Rayisa"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19927970102,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3636894992,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Header’s of Quotation page and selected link’s name has to match.",
+        "description": "",
+        "id": "rayisa;header’s-of-quotation-page-and-selected-link’s-name-has-to-match.",
+        "after": [
+          {
+            "result": {
+              "duration": 3764503366,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 49064128,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Header’s of Quotation page equals link\u0027s title",
+            "match": {
+              "location": "RayisaStepDef.header_s_of_Quotation_page_equals_link_s_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Rayisa"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18260186991,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3614357169,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Purchase orders page should be clickable and accessible.",
+        "description": "",
+        "id": "rayisa;purchase-orders-page-should-be-clickable-and-accessible.",
+        "after": [
+          {
+            "result": {
+              "duration": 3754050881,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2324088032,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click the purchaseOrder",
+            "match": {
+              "location": "MuhtarStepDef.click_the_purchaseOrder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 127506401,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The title of the page should contain \"Purchase Orders\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Purchase Orders\"",
+                  "offset": 37
+                }
+              ],
+              "location": "RayisaStepDef.the_title_of_the_page_should_contain(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Rayisa"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19410641668,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3543181885,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Total tax value should be subtotal times tax rate in creating purchase orders",
+        "description": "",
+        "id": "rayisa;total-tax-value-should-be-subtotal-times-tax-rate-in-creating-purchase-orders",
+        "after": [
+          {
+            "result": {
+              "duration": 3777620385,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1941675496,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click the purchaseOrder",
+            "match": {
+              "location": "MuhtarStepDef.click_the_purchaseOrder()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99599402,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click The Create Button",
+            "match": {
+              "location": "MuhtarStepDef.click_The_Create_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 842919186,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click the Add an Item",
+            "match": {
+              "location": "MuhtarStepDef.click_the_Add_an_Item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 955058754,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "should be able to select item from Product Drop Down Box",
+            "match": {
+              "location": "MuhtarStepDef.should_be_able_to_select_item_from_Product_Drop_Down_Box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1240783462,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Eneter \"200\" to Unit Price box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 7
+                }
+              ],
+              "location": "MuhtarStepDef.eneter_to_Unit_Price_box(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 150583104,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Total tax should equal to Subtotal * Tax rate;",
+            "match": {
+              "location": "RayisaStepDef.total_tax_should_equal_to_Subtotal_Tax_rate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Rayisa"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18348629908,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3624125706,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Total price should be equal to the sum of subtotal and Taxes Amount",
+        "description": "",
+        "id": "rayisa;total-price-should-be-equal-to-the-sum-of-subtotal-and-taxes-amount",
+        "after": [
+          {
+            "result": {
+              "duration": 3751171307,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1700787499,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "click the purchaseOrder",
+            "match": {
+              "location": "MuhtarStepDef.click_the_purchaseOrder()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75338272,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click The Create Button",
+            "match": {
+              "location": "MuhtarStepDef.click_The_Create_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 893568382,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Click the Add an Item",
+            "match": {
+              "location": "MuhtarStepDef.click_the_Add_an_Item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1013803953,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "should be able to select item from Product Drop Down Box",
+            "match": {
+              "location": "MuhtarStepDef.should_be_able_to_select_item_from_Product_Drop_Down_Box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1821064030,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Eneter \"200\" to Unit Price box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 7
+                }
+              ],
+              "location": "MuhtarStepDef.eneter_to_Unit_Price_box(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 100960896,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Total Price \u003d subtotal + Taxes amount",
+            "match": {
+              "location": "RayisaStepDef.total_Price_subtotal_Taxes_amount()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Rayisa"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Rayisa",
+    "description": "",
+    "id": "rayisa",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\com.cybertek\\rayisa.feature",
+    "tags": [
+      {
+        "name": "@Rayisa",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 9
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14082949155,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3605799085,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "User should not be able to create Request for Quotation without selecting the vendor",
+        "description": "",
+        "id": "shehla;user-should-not-be-able-to-create-request-for-quotation-without-selecting-the-vendor",
+        "after": [
+          {
+            "result": {
+              "duration": 3719848841,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 102740097,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click The Create Button",
+            "match": {
+              "location": "MuhtarStepDef.click_The_Create_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 617045170,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click the save buttons",
+            "match": {
+              "location": "ShehlaStepDef.click_the_save_buttons()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50002368,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the error message will be displayed.",
+            "match": {
+              "location": "ShehlaStepDef.the_error_message_will_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Shehla"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14014109446,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3580267341,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User should be able to Add Item when creating Request for quotation",
+        "description": "",
+        "id": "shehla;user-should-be-able-to-add-item-when-creating-request-for-quotation",
+        "after": [
+          {
+            "result": {
+              "duration": 3777721078,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 109654234,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click The Create Button",
+            "match": {
+              "location": "MuhtarStepDef.click_The_Create_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 671826633,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click the Add an Item",
+            "match": {
+              "location": "MuhtarStepDef.click_the_Add_an_Item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 384969978,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "new subtotal should be dispayed",
+            "match": {
+              "location": "ShehlaStepDef.new_subtotal_should_be_dispayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Shehla"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16168774045,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3610971568,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "The default unit price box should be empty when creating Request for quotation",
+        "description": "",
+        "id": "shehla;the-default-unit-price-box-should-be-empty-when-creating-request-for-quotation",
+        "after": [
+          {
+            "result": {
+              "duration": 3773660490,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 126998241,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click The Create Button",
+            "match": {
+              "location": "MuhtarStepDef.click_The_Create_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1068676296,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click the Add an Item",
+            "match": {
+              "location": "MuhtarStepDef.click_the_Add_an_Item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1519529181,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "should be able to select item from Product Drop Down Box",
+            "match": {
+              "location": "MuhtarStepDef.should_be_able_to_select_item_from_Product_Drop_Down_Box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38866790,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the Unit Price Box should be Empty",
+            "match": {
+              "location": "ShehlaStepDef.the_Unit_Price_Box_should_be_Empty()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Shehla"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17715463132,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3615570609,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Should be able to delete the added item when creating Request for quotation",
+        "description": "",
+        "id": "shehla;should-be-able-to-delete-the-added-item-when-creating-request-for-quotation",
+        "after": [
+          {
+            "result": {
+              "duration": 3767730248,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 139788433,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Click The Create Button",
+            "match": {
+              "location": "MuhtarStepDef.click_The_Create_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 875711093,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Click the Add an Item",
+            "match": {
+              "location": "MuhtarStepDef.click_the_Add_an_Item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 892322514,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "should be able to select item from Product Drop Down Box",
+            "match": {
+              "location": "MuhtarStepDef.should_be_able_to_select_item_from_Product_Drop_Down_Box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 75455605,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Delete The item",
+            "match": {
+              "location": "ShehlaStepDef.delete_The_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Shehla"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18974260469,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3627847948,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "should be able to save the Requast when creating Request for quotation",
+        "description": "",
+        "id": "shehla;should-be-able-to-save-the-requast-when-creating-request-for-quotation",
+        "after": [
+          {
+            "result": {
+              "duration": 3745319998,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 152557291,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Click The Create Button",
+            "match": {
+              "location": "MuhtarStepDef.click_The_Create_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1253405122,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Click the Add an Item",
+            "match": {
+              "location": "MuhtarStepDef.click_the_Add_an_Item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1271133129,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "should be able to select item from Product Drop Down Box",
+            "match": {
+              "location": "MuhtarStepDef.should_be_able_to_select_item_from_Product_Drop_Down_Box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 602470230,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click The Vendor drop down box and select random vendor",
+            "match": {
+              "location": "ShehlaStepDef.click_The_Vendor_drop_down_box_and_select_random_vendor()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 86585637,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "click the save buttons",
+            "match": {
+              "location": "ShehlaStepDef.click_the_save_buttons()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Shehla"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "shehla",
+    "description": "",
+    "id": "shehla",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\com.cybertek\\shehla.feature",
+    "tags": [
+      {
+        "name": "@Shehla",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 9
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17987528528,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3608480260,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Verify that reference check-box should be able to select all products.",
+        "description": "",
+        "id": "zohra;verify-that-reference-check-box-should-be-able-to-select-all-products.",
+        "after": [
+          {
+            "result": {
+              "duration": 3875900534,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 168529138,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click the Reference check box",
+            "match": {
+              "location": "ZohraStepDef.click_the_Reference_check_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 631385869,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "All check boxes will be selected",
+            "match": {
+              "location": "ZohraStepDef.all_check_boxes_will_be_selected()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Zohra"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18948115605,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3591178919,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify that reference check-box should be able to Deselect all products.",
+        "description": "",
+        "id": "zohra;verify-that-reference-check-box-should-be-able-to-deselect-all-products.",
+        "after": [
+          {
+            "result": {
+              "duration": 3745026452,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 155057560,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click the Reference check box",
+            "match": {
+              "location": "ZohraStepDef.click_the_Reference_check_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77705846,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click the Reference check box again",
+            "match": {
+              "location": "ZohraStepDef.click_the_Reference_check_box_again()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 580620194,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "All check boxes will be deselected.",
+            "match": {
+              "location": "ZohraStepDef.all_check_boxes_will_be_deselected()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Zohra"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 20733206926,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3609921114,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Verify that each products should be selectable separately.",
+        "description": "",
+        "id": "zohra;verify-that-each-products-should-be-selectable-separately.",
+        "after": [
+          {
+            "result": {
+              "duration": 3831422221,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17818734856,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click the each products check box.",
+            "match": {
+              "location": "ZohraStepDef.click_the_each_products_check_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 396844543,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "each products check box will be selected.",
+            "match": {
+              "location": "ZohraStepDef.each_products_check_box_will_be_selected()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Zohra"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17587485264,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3641158674,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verify that sum of Untaxed balances should equal to total balance shown at the blow.",
+        "description": "",
+        "id": "zohra;verify-that-sum-of-untaxed-balances-should-equal-to-total-balance-shown-at-the-blow.",
+        "after": [
+          {
+            "result": {
+              "duration": 3732374499,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 932471011,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "sum of all untexted amount equal to the total balance shown at the end.",
+            "match": {
+              "location": "ZohraStepDef.sum_of_all_untexted_amount_equal_to_the_total_balance_shown_at_the_end()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Zohra"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "login steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18525025504,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user login as a manager",
+            "match": {
+              "location": "LoginPageStepDef.user_login_as_a_manager()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3601552043,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Verify that each Vendors’ name on the table should be same with vendor’ name on the receipt.",
+        "description": "",
+        "id": "zohra;verify-that-each-vendors’-name-on-the-table-should-be-same-with-vendor’-name-on-the-receipt.",
+        "after": [
+          {
+            "result": {
+              "duration": 3794908073,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15220436147,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "each vendor\u0027s name on table matches with thier name on recipe.",
+            "match": {
+              "location": "ZohraStepDef.each_vendor_s_name_on_table_matches_with_thier_name_on_recipe()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Zohra"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "zohra",
+    "description": "",
+    "id": "zohra",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\com.cybertek\\zohra.feature",
+    "tags": [
+      {
+        "name": "@Zohra",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      }
+    ]
+  }
+]

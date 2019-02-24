@@ -34,6 +34,31 @@ public class MisranWebElementPage {
     @FindBy(xpath = "//span[contains(text(),'$ 67.00')]")
     public WebElement price;
 
+    public @FindBy(xpath = "//input[@placeholder='Search...']")
+    WebElement SearchBox;
+
+    public @FindBy(xpath = "//span[contains(text(),'Apple Wireless Keyboard')]")
+    WebElement productonpage;
+
+    public @FindBy(xpath ="//button[contains(text(),'Edit')]" )
+    WebElement editButton;
+
+    public @FindBy(xpath = "//*[@class='o_input' and @type='text']")
+    WebElement salesPriceBox;
+
+    public @FindBy(xpath = "//div[@class='o_form_buttons_edit']//button[@type='button'][contains(text(),'Save')]")
+    WebElement saveButton;
+
+    public @FindBy(xpath = "/html/body/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/img")
+    WebElement productBox;
+
+    public @FindBy(xpath = "//span[@name='name']")
+    WebElement itemDiscription;
+
+    public @FindBy(xpath="//span[contains(text(),'Vendors')]")
+    WebElement VendorPage;
+
+
 
 
 

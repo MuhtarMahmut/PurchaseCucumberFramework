@@ -64,24 +64,5 @@ public class MuhtarStepDef {
         wait.until(ExpectedConditions.textToBePresentInElement(ME.Total, "200.00"));
     }
 
-    @Then("Total tax should equal to Subtotal * Tax rate;")
-    public void total_tax_should_equal_to_Subtotal_Tax_rate() {
-        double taxrate = 0, subtotal = 0, TotalTax = 0;
-        if (!ME.TaxesDropDownBox.getText().isEmpty())
-            taxrate = new Double(ME.TaxesDropDownBox.getText());
-        if (!ME.Subtotal.getText().isEmpty())
-            subtotal = new Double(ME.Subtotal.getText());
-        if (!ME.TaxesAmount.getText().isEmpty())
-            TotalTax = new Double(ME.TaxesAmount.getText());
-        Assert.assertTrue(TotalTax == (subtotal * taxrate));
-    }
-
-    @Then("Total Price = subtotal + Taxes amount")
-    public void total_Price_subtotal_Taxes_amount() {
-        double Totalprice=new Double(ME.Total.getText()),
-                SubtotalPrice=new Double(ME.Subtotal.getText()),
-                TaxesAmount=new Double(ME.TaxesAmount.getText());
-        Assert.assertTrue(Totalprice == (SubtotalPrice + TaxesAmount));
-    }
 
 }
