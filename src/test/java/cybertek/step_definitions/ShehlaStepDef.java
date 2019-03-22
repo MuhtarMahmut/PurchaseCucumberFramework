@@ -25,11 +25,13 @@ public class ShehlaStepDef {
 
     @Then("new subtotal should be dispayed")
     public void new_subtotal_should_be_dispayed() {
+
         Assert.assertTrue(SE.Subtotal.isDisplayed());
     }
 
     @Then("the Unit Price Box should be Empty")
     public void the_Unit_Price_Box_should_be_Empty() {
+
         Assert.assertTrue(SE.UnitPrice.getText().isEmpty());
     }
 

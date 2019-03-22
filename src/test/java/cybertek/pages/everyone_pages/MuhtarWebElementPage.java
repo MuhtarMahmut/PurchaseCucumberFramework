@@ -50,4 +50,9 @@ public class MuhtarWebElementPage {
     public @FindBy(xpath = "//span[@name='amount_total']")
     WebElement Total;
 
+
+
+
+
+
 }

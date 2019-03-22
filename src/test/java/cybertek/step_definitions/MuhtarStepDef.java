@@ -44,6 +44,7 @@ public class MuhtarStepDef {
 
     @Then("Qunatity box should be empty.")
     public void qunatity_box_should_be_empty() {
+
         Assert.assertTrue(ME.QuantityBox.getText().isEmpty());
     }
 
